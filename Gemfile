@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 ruby '2.6.3'
 
-gem 'jekyll', "3.8.6"
-gem 'html-proofer', '>= 3.11.1'
-gem "rack", ">= 2.0.8"
+gem 'jekyll', '3.9.0'
+gem 'html-proofer', '>= 3.14.1'
+gem "rack", ">= 3.0.0"
 gem 'asciidoctor'
-gem 'asciidoctor-pdf', '~> 1.5.0.beta.5'
+gem 'asciidoctor-pdf', '~> 1.5.0.0.0'
 gem 'pygments.rb', '~> 1.1.2'
 
 group :jekyll_plugins do
